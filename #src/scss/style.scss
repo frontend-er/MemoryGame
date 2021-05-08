@@ -5,7 +5,38 @@
 /* Main styles stars*/
 
 body {
-    display: flex;
+    background: url(../img/base.png) 0 0 no-repeat;
+    text-align: center;
+    position: absolute;
 }
+
+
+.menu {
+    position: relative;
+    top: 35%;
+
+    &__title {
+
+        color: rgb(218, 166, 103);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 40px;
+
+    }
+
+    &__start {
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(173, 173, 173);
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+
+        margin-top: 40px;
+
+    }
+}
+
 
 /* Main styles ends*/
