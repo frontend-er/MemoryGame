@@ -23,6 +23,7 @@ body {
         font-style: italic;
         text-transform: uppercase;
         font-size: 40px;
+        cursor: default;
 
     }
 
@@ -32,11 +33,62 @@ body {
         font-weight: 700;
         font-size: 20px;
         text-transform: uppercase;
-
         margin-top: 40px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+
 
     }
 }
 
+.menu__start:hover {
+    color: white;
+
+}
+
+
+
+.level {
+    position: relative;
+    top: 35%;
+    display: none;
+
+    &__list {
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(173, 173, 173);
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        margin-left: -10px;
+
+        li {
+            padding: 2px;
+        }
+    }
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
+
+.game-window {
+    color: white;
+    position: relative;
+    top: 35%;
+
+    img {
+        cursor: pointer;
+    }
+}
 
 /* Main styles ends*/
